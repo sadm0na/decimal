@@ -1,18 +1,18 @@
-## Общий пул задач до ночи 9 ноября
+# Общий пул задач до ночи 9 ноября
 
-- [ ] Comparison
-- [ ] Conversion
-- [ ] Utils
+\- Comparison <br>
+\- Conversion <br>
+\- Utils
 
-### Рита
+## Рита
 
 **Comparison**:
-- <, <=, ==
+\- <, <=, ==
 
 **Utils**:
-- Negative number
+\- Negative number
 
-### Моня
+## Моня
 
 **Comparison**:
-- \>, >=, !=
+\- \>, >=, !=
