@@ -22,6 +22,8 @@ void decimal_to_long(s21_decimal src, s21_long_decimal *dst);
 void normalize_long(s21_long_decimal *d);
 int long_eq(s21_long_decimal a, s21_long_decimal b);
 int long_less(s21_long_decimal a, s21_long_decimal b);
+static void multiply_long_by_10(s21_long_decimal *d);
+static unsigned int divide_long_by_10(s21_long_decimal *d);
 
 static inline uint32_t get_sign(s21_decimal d) {
     return (uint32_t)((d.bits[3] >> 31) & 1);
